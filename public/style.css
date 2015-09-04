@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+}
+
+.marginAroundS1 {
+	margin:30px;
+	text-align: center;
+}
+
+.marginAroundS2{
+	margin:20px;
+	margin-top:60px;
+	text-align: center;
+}
+
+.cleanTable{
+	border:0px hidden;
+}
+
+.cellStyle{
+	border: 10px solid white;
+}
+
+.gameCell{
+	width: 100px;
+	height:100px;
+	position:relative;
+	top:10px;
+	color: white;
+}
+
+.noBorderTable{
+	border:0px hidden;
+}
+
+.noBorderCell{
+	border:0px hidden;
+	color: white;
+	width: 100px;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.alert-danger{
+	width:100px;
+	position:absolute;
+	right:0;
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

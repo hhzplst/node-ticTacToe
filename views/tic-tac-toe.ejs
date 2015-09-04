@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ready?Go!</title>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Bootswatch compiled and minified CSS, theme United -->
+  <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.css">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- My stylesheet-->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Animate CSS-->
+  <link rel="stylesheet" href="./animate.css/animate.min.css">  
+
+  <!-- Socket io -->
+  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+
+  <script src="tic-tac-toe.js"></script>
+
+  <script src = "http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+</head>
+<body>
+
+  <div class="marginAroundS2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <table class="table cleanTable" id="gameTable">
+                <tbody>
+                  <tr>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="1"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="2"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="3"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="4"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="5"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="6"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="7"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="8"></div>
+                    </td>
+                    <td class="cellStyle">
+                      <div class="gameCell" data-id="9"></div>
+                    </td>
+                  </tr>
+              </tbody>
+          </table><br>
+          <table class="table noBorderTable">
+            <tbody>
+              <tr>
+                <td class="noBorderCell"><h2>User1 <br><h3 data-id="user1P">0</h3></h2></td>
+                <td class="noBorderCell"><h2>Ties&nbsp;<br><h3 data-id="tieP">0</h3></h2></td>
+                <td class="noBorderCell"><h2>User2<br><h3 data-id="user2P">0</h3></h2></td>
+              </tr>
+            </tbody>
+          </table>
+           <!-- <div>
+            <ul class="nav nav-pills">
+              <a href="screen1.html" class="btn btn-warning">Main Menu</a>
+              <a href="#" style="color:black">You can't</a>
+              <a href="#" class="btn btn-warning" id="clear">Start Over</a>
+            </ul>
+          </div> -->
+          
+        </div>
+          
+        <!-- <div class="col-md-4">
+          <div class="alert alert-danger" id="timer">
+            <span class="fa fa-clock-o fa-3x" ></span>
+            <h3 id="alertClock">0:05</h3>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
